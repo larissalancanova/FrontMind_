@@ -119,8 +119,9 @@ h1 {
 .imagemCodigo img {
     /* margin-left: 55%; */
     border-radius: 15px;
-    width: 230px;
-    height: 358px;
+    width: 100%;
+    max-width: 500px;
+    
     margin-top: 56px;
 }
 
@@ -236,26 +237,63 @@ h1 {
     margin: 1%;
 }
 
+/* Accordion */
+.accordion {
+    background-color: #D504D9;
+    color: #f8f4f4;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #034AA6;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #F2F2F2;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  /* .accordionDiv{
+    margin-left: 45%;
+  } */
 /* Nossa Equipe */
 
 .nossaEquipe {
     background-color: #05F2F2;
-    width: 100%;
-    height: 190px;
+    /* width: 100%;
+    height: 190px; */
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.fotoEquipe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .fotoEquipe img {
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     border-radius: 48%;
     margin: 1%;
 }
@@ -288,10 +326,43 @@ h1 {
  
 
 #form-contato a:hover,
-/* #form-con a:focus */{
+#form-con a:focus {
     background-color: #D504D9;
     color: #000;
     transition: inherit;
     border-radius: 5%;
+
+}
+
+@media (min-width: 700px)  {
+    .fotoEquipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+
+
+@media (min-width: 900px)  {
+    .fotoEquipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+
+@media (min-width: 1200px)  {
+    .fotoEquipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 }
