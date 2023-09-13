@@ -1,6 +1,10 @@
 @charset "utf-8";
 
+ 
 
+ 
+
+ 
 
 body {
 
@@ -16,15 +20,24 @@ body {
 
 }
 
+ 
+
 p {
+
     font-size: 1em;
+
 }
 
+ 
 
 h1,
+
 h2,
+
 h3,
+
 h4,
+
 figure {
 
     margin: 0;
@@ -33,7 +46,7 @@ figure {
 
 }
 
-
+ 
 
 img {
 
@@ -41,43 +54,49 @@ img {
 
 }
 
-
+ 
 
 /*topo*/
 
-
+ 
 
 header #topo {
+
     width: 100%;
 
 }
 
-
+ 
 
 #topoFlex {
 
     display: flex;
+
     /* justify-content: space-around; */
+
     margin-bottom: 15px;
+
     border-bottom: solid 1px;
+
     background-color: #F2F2F2;
+
     text-align: center;
+
     width: 100%;
-
-
 
 }
 
-
+ 
 
 h1 img {
 
     margin-top: 5px;
+
     width: 85px;
 
 }
 
-
+ 
 
 nav {
 
@@ -99,9 +118,10 @@ nav {
 
 }
 
-
+ 
 
 nav a:link,
+
 nav a:visited {
 
     text-decoration: solid;
@@ -124,9 +144,14 @@ nav a:visited {
 
 }
 
+ 
 
+ 
+
+ 
 
 nav a:hover,
+
 nav a:focus {
 
     background-color: #D504D9;
@@ -139,11 +164,11 @@ nav a:focus {
 
 }
 
-
+ 
 
 /*inicio/ entrada*/
 
-
+ 
 
 #inicio {
 
@@ -153,11 +178,9 @@ nav a:focus {
 
     height: 260px;
 
-
-
 }
 
-
+ 
 
 hr {
 
@@ -169,11 +192,11 @@ hr {
 
 }
 
-
+ 
 
 /*o que fazemos*/
 
-
+ 
 
 h1 {
 
@@ -181,20 +204,19 @@ h1 {
 
     text-align: center;
 
-
-
 }
 
-
+ 
 
 #oqueFazemos,
+
 #comoFaz {
 
     text-align: center;
 
 }
 
-
+ 
 
 /* #comoFaz{
 
@@ -204,19 +226,23 @@ h1 {
 
 } */
 
-
+ 
 
 .imagemCodigo img {
 
     /* margin-left: 55%; */
+
     border-radius: 15px;
+
     width: 230px;
+
     height: 358px;
+
     margin-top: 56px;
 
 }
 
-
+ 
 
 #metodologia {
 
@@ -228,13 +254,23 @@ h1 {
 
 }
 
+ 
+
 .flexComoFaz {
+
     display: flex;
+
 }
 
+ 
 
+ 
+
+ 
 
 /* footer */
+
+ 
 
 .rodape {
 
@@ -246,11 +282,9 @@ h1 {
 
     width: 100%;
 
-
-
 }
 
-
+ 
 
 .rodape p {
 
@@ -258,13 +292,15 @@ h1 {
 
 }
 
+ 
+
 .rodape aside {
 
     margin: 25px;
 
 }
 
-
+ 
 
 .rodape img {
 
@@ -272,9 +308,11 @@ h1 {
 
     margin-right: 5px;
 
+ 
+
 }
 
-
+ 
 
 .rodape-conteudo {
 
@@ -284,17 +322,21 @@ h1 {
 
     align-content: center;
 
+ 
+
 }
 
-
+ 
 
 .rodape-conteudo ul {
 
     list-style: none;
 
+ 
+
 }
 
-
+ 
 
 #logo-rodape {
 
@@ -308,7 +350,7 @@ h1 {
 
 }
 
-
+ 
 
 .menu-rodape {
 
@@ -318,7 +360,7 @@ h1 {
 
 }
 
-
+ 
 
 .menu-rodape a:hover {
 
@@ -326,7 +368,7 @@ h1 {
 
 }
 
-
+ 
 
 .redes img {
 
@@ -336,7 +378,7 @@ h1 {
 
 }
 
-
+ 
 
 .redes ul {
 
@@ -346,7 +388,7 @@ h1 {
 
 }
 
-
+ 
 
 .redes li {
 
@@ -356,7 +398,7 @@ h1 {
 
 }
 
-
+ 
 
 .assinatura {
 
@@ -372,7 +414,7 @@ h1 {
 
 }
 
-
+ 
 
 .assinatura p {
 
@@ -380,27 +422,166 @@ h1 {
 
 }
 
-/* Nossa Equipe */
+ 
 
-.nossaEquipe {
+/* Nossos clientes */
+
+ 
+
+.nossosClientes {
+
     background-color: #05F2F2;
+
     width: 100%;
-    height: 180px;
+
+    height: 190px;
+
     text-align: center;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
 
 }
 
-.fotoEquipe {
+ 
+
+.Clientes {
+
     display: flex;
+
     justify-content: center;
+
+    align-items: center;
+
+ 
+
+}
+
+ 
+
+.Clientes img {
+
+    width: 125px;
+
+    height: 125px;
+
+    border-radius: 48%;
+
+    margin: 1%;
+
+}
+
+ 
+
+/* Nossa Equipe */
+
+ 
+
+.nossaEquipe {
+
+    background-color: #05F2F2;
+
+    width: 100%;
+
+    height: 190px;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.fotoEquipe {
+
+    display: flex;
+
+    justify-content: center;
+
     align-items: center;
 
 }
 
+ 
+
 .fotoEquipe img {
+
     width: 125px;
+
     height: 125px;
+
     border-radius: 48%;
+
     margin: 1%;
+
+}
+
+ 
+
+/* Contato */
+
+ 
+
+.conteudo-info{
+
+    background-color: #034AA6;
+
+    width: 100%;
+
+    height: 400px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    align-items: center;
+
+    align-content: center;
+
+    text-align: center;
+
+     /* border-radius: 15px;
+
+    border: white solid 2px;  */
+
+}
+
+ 
+
+ 
+
+#form-contato a:link,
+
+#form-con a:visited {
+
+    text-decoration: solid;
+
+    color: black;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+ 
+
+#form-contato a:hover,
+
+#form-con a:focus {
+
+    background-color: #D504D9;
+
+    color: #000;
+
+    transition: inherit;
+
+    border-radius: 5%;
 
 }
