@@ -82,10 +82,10 @@
                 <h1>Nossos Clientes</h1>
             </div>
             <aside class="Clientes">
-                <img src="/imagens/adobe.png">
-                <img src="/imagens/cacaushow.png">
-                <img src="/imagens/americanas.png">
-                <img src="/imagens/senac.png">
+                <div><img src="/imagens/adobe.png"></div>
+                <div><img src="/imagens/cacaushow.png"></div>
+                <div><img src="/imagens/americanas.png"></div>
+                <div><img src="/imagens/senac.png"></div>
             </aside>
         </div>
         <a id="faqLink"></a>
@@ -135,29 +135,31 @@
                     <form action="" id="form-contato" method="post">
                         <p>
                             <label for="nome">Nome:</label>
-                            <input tabindex="5" required type="text" id="nome" name="nome">
+                            <input tabindex="5" required type="text" id="nome" name="nome" placeholder="Nome completo">
+                        </p>    
+                        <p>    
                             <label for="telefone">Celular:</label>
-                            <input tabindex="7" required type="tel" id="telefone" name="telefone">
+                            <input tabindex="7" required type="tel" id="telefone" name="telefone" placeholder="(99)99999-9999">
                         </p>
 
                         <p>
                             <label for="email">E-mail:</label>
-                            <input tabindex="6" required type="email" id="email" name="email">
+                            <input tabindex="6" required type="email" id="email" name="email" placeholder="email@email.com">
                         </p>
 
                         <p>
                             <label for="assunto">Assunto:</label>
-                            <input tabindex="8" required type="text" id="assunto" name="assunto">
+                            <input tabindex="8" required type="text" id="assunto" name="assunto" placeholder="Assunto">
                         </p>
 
                         <p>
                             <label for="mensagem">Mensagem:</label>
-                            <textarea tabindex="9" id="mensagem" name="mensagem" cols="30" rows="6"></textarea>
+                            <textarea tabindex="9" id="mensagem" name="mensagem" cols="30" rows="6" placeholder="Deixe uma mensagem"></textarea>
                         </p>
 
                         <a>
-                            <button tabindex="10" id="limpar" type="reset" name="limpar">Limpar campos </button>
-                            <button tabindex="11" id="enviar" name="enviar">Enviar dados</button>
+                            <button tabindex="10" id="limpar" type="reset" name="limpar">Limpar</button>
+                            <button tabindex="11" id="enviar" name="enviar">Enviar</button>
                         </a>
 
                     </form>

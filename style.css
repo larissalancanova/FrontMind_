@@ -42,10 +42,10 @@ header #topo {
     width: 100%;
 }
 
-h1 img {
+/* h1 img {
     margin-top: 5px;
     width: 85px;
-}
+} */
 
 nav {
     min-height: 40px;
@@ -85,8 +85,9 @@ nav a:focus {
 
 #inicio {
     /* background-image: url(imagens/backgroundInicio480px.png); */
-    width: 480px;
-    height: 260px;
+    width: 100%;
+    min-width: 480px;
+    min-height: 260px;
 }
 
 hr {
@@ -127,7 +128,7 @@ h1 {
 
 #metodologia {
     position: relative;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* display: flex; */
 }
 
@@ -139,7 +140,7 @@ h1 {
 
 .rodape {
     background-color: #05F2F2;
-    color: #7f7f80;
+    /* color: #7f7f80; */
     text-align: center;
     width: 100%;
 }
@@ -217,8 +218,8 @@ h1 {
 
 .nossosClientes {
     background-color: #05F2F2;
-    width: 100%;
-    height: 190px;
+    /* width: 100%;
+    height: 190px; */
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -332,6 +333,14 @@ h1 {
     transition: inherit;
     border-radius: 5%;
 
+}
+
+#form-contato input{
+    width: 100%;
+}
+
+.formulario{
+    width: 400px;
 }
 
 @media (min-width: 700px)  {
